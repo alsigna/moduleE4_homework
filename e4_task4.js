@@ -24,7 +24,7 @@
 
 // common
 function ElectricalDevice(powerConsumption) {
-    this.powerConsumption = powerConsumption;
+    this.powerConsumption = powerConsumption; // вот тут VSCode ругается на ',', которые, судя по материалам курса, должны использоваться вместо ';'
     this.swithedOn = false;
 }
 ElectricalDevice.prototype.switchOnOff = function () {
